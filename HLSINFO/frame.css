@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*body{
+    background: rgb(61, 111, 129);
+}*/
+.frame{
+    margin-top: 10%;
+
+}
+.frame h1{
+    font-family: 'Baloo Da 2', cursive;;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+} 
+
+.frame1{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.frame1 .f1 .team_img img{
+    width: 302px;
+    height: 250px;
+    padding: 0px;
+    margin: 25px;
+    border-radius: 10px;
+    border: 2px solid rgb(1, 10, 10);
+
+}
+
+button{
+    width: 250px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
